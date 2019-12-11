@@ -1,13 +1,13 @@
 {
   "name": "testing",
   "version": "1.0.0",
-  "description": "website",
+  "description": "website bla bla bla",
   "main": "index.js",
+  "homepage": "https://calvin1337.github.io/testing",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
-
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/calvin1337/testing.git"
@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/calvin1337/testing/issues"
   },
-  "homepage": "https://calvin1337.github.io/testing",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
