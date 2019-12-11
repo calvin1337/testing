@@ -89,6 +89,7 @@ min-height: calc(100vh - 60px);
     "job1 job2 job3";
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+    background: $primary-color;
 
 }
 
