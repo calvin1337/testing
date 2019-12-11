@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #26222d;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #373737;
+    background: #26222d;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -97,7 +97,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #322d3c;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -115,17 +115,18 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.8); }
+      background: rgba(50, 45, 60, 0.8); }
 
 h1, h2, h3 {
   margin: 0;
   font-weight: 400; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 6rem;
+    text-align: center; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    text-align: center; }
 
 a {
   color: #ffffff;
@@ -159,7 +160,7 @@ main {
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
-  background: #444; }
+  background: #322d3c; }
 
 .bio-image {
   grid-area: bioimage;
@@ -181,7 +182,7 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #515151;
+  background: #3e384b;
   padding: 0.5rem;
   border-bottom: #92A1CF 5px solid; }
 
@@ -230,15 +231,18 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #b0a9bf;
   color: #fff; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #2a2532;
   color: #ffffff;
   height: 60px; }
+
+.icons {
+  text-align: center; }
 
 @media screen and (min-width: 1171px) {
   .projects {
@@ -274,6 +278,8 @@ main {
       background: url("../../img/portrait_small.jpg");
       width: 150px;
       height: 150px; }
+    .menu-branding .logo {
+      font-size: 4rem; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
