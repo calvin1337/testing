@@ -24,18 +24,21 @@ font-weight: 400;
 
  &.lg-heading {
      font-size:6rem;
+     text-align: center;
 
  }
  &.sm-heading{
      margin-bottom:2rem;
      padding:0.2rem 1rem;
-     background:rgba(lighten($primary-color, 2), 0.5);
+   //  background:rgba(lighten($primary-color, 2), 0.5); //
+     text-align: center;
  }
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    
 }
 
 header{
@@ -208,12 +211,14 @@ color:#fff
 #main-footer{
     text-align: center;
     padding:1rem;
-    background: darken($primary-color, 10);
+    background: darken($primary-color, 3.5);
     color: set-text-color($primary-color);
     height:60px;
 }
 
-
+.icons{
+    text-align: center;
+}
 
 
 @import "mobile";
